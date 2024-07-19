@@ -37,7 +37,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/creasty/defaults"
+	"github.com/rjshrjndrn/defaults"
 )
 
 type Gender string

@@ -1,3 +1,3 @@
-module github.com/creasty/defaults
+module github.com/rjshrjndrn/defaults
 
-go 1.14
+go 1.22.3

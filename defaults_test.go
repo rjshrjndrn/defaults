@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/creasty/defaults/internal/fixture"
+	"github.com/rjshrjndrn/defaults/internal/fixture"
 )
 
 type (
@@ -184,7 +184,6 @@ func (j *JSONOnlyType) UnmarshalJSON(b []byte) error {
 }
 
 func TestMustSet(t *testing.T) {
-
 	t.Run("right way", func(t *testing.T) {
 		defer func() {
 			if err := recover(); err != nil {
@@ -226,7 +225,6 @@ func TestMustSet(t *testing.T) {
 		}
 		MustSet(sample)
 	})
-
 }
 
 func TestInit(t *testing.T) {
