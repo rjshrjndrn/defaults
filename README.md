@@ -54,6 +54,7 @@ type Sample struct {
 
 	MapNull            map[string]int          `default:"{}"`
 	Map                map[string]int          `default:"{\"key1\": 123}"`
+	SliceOfStruct      []OtherStruct           `default:"[{\"Foo\":123}]"`
 	MapOfStruct        map[string]OtherStruct  `default:"{\"Key2\": {\"Foo\":123}}"`
 	MapOfPtrStruct     map[string]*OtherStruct `default:"{\"Key3\": {\"Foo\":123}}"`
 	MapOfStructWithTag map[string]OtherStruct  `default:"{\"Key4\": {\"Foo\":123}}"`
